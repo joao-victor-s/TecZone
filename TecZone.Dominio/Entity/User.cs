@@ -2,7 +2,7 @@
 
 namespace TecZone.Dominio.Entidades
 {
-    class User : Entity
+    public class User : Entity
     {
         public int Id { get; set; }
         public string Email { get; set; }
